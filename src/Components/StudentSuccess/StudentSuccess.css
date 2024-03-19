@@ -1,0 +1,52 @@
+.studentsuccess-section{
+    width: 100%;
+    /* background-color: #C2FBE8; */
+    background-color: #abaefc;
+}
+
+.studentsuccess-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.studentsuccess-section .container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.studentsuccess-section .container .heading span{
+    font-size: 32px;
+    font-weight: 600;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.studentsuccess-section .container .success-detail{
+    margin-top: 30px;
+}
+
+.studentsuccess-section .container .success-detail .mySwiper-success{
+    align-items: center;
+}
+
+.studentsuccess-section .container .success-detail .image{
+    height: 100%;
+}
+
+.studentsuccess-section .container .success-detail .image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:570px) {
+    .studentsuccess-section .container{
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:370px) {
+    .studentsuccess-section .container .heading span{
+        font-size: 28px;
+    }
+}

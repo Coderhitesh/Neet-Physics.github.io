@@ -1,0 +1,144 @@
+.abouttiwariclasses-section{
+    width: 100%;
+}
+
+.abouttiwariclasses-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.abouttiwariclasses-section .container .heading{
+    width: 100%;
+}
+
+.abouttiwariclasses-section .container .heading span{
+    font-size: 32px;
+    font-weight: 700;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .left{
+    width: 40%;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .left .image{
+    width: 100%;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .left .image img{
+    width: 100%;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .left .left-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .left .left-detail p{
+    font-size: 18px;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .right{
+    width: 57%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .right span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .right p{
+    /* color: rgb(125, 125, 125); */
+    color: black;
+}
+
+.abouttiwariclasses-section .container .tiwariclasses-detail .right .last-p{
+    margin-top: 15px;
+}
+
+@media (max-width:800px) {
+    .abouttiwariclasses-section .container .tiwariclasses-detail{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .left-detail{
+        align-items: center;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .left-detail p{
+        text-align: center;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .image{
+        width: 60%;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .image img{
+       
+        height: 350px;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .right{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:634px) {
+    .abouttiwariclasses-section .container .heading{
+        text-align: center;
+    }
+    .abouttiwariclasses-section .container .heading span{
+        font-size: 25px;
+        font-weight: 700;
+        color: cadetblue;
+    }
+}
+
+@media (max-width:530px) {
+
+    .abouttiwariclasses-section .container{
+        padding: 40px 20px;
+    }
+
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .image{
+        width: 100%;
+    }
+    
+    .abouttiwariclasses-section .container .tiwariclasses-detail .left .image img{
+        height: 350px;
+    }
+}
+
+/* @media (max-width:570px) {
+    .abouttiwariclasses-section .container .bg {
+        width: 100%;
+        height: 270px;
+        background: url(./bg.jpg) no-repeat center;
+        background-size: cover;
+    }
+} */

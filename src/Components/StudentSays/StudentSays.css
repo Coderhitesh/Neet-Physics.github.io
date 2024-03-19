@@ -1,0 +1,131 @@
+.studentsay-section{
+    width: 100%;
+    /* background-color: #fff6a5; */
+    /* background-color: rgb(194, 251, 232); */
+    background-color: #abaefc;
+}
+
+.studentsay-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 60px;
+}
+
+.studentsay-section .container .heading{
+    width: 100%;
+    text-align: center  ;
+}
+
+.studentsay-section .container .heading span{
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.studentsay-section .container .studentsay-detail{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.studentsay-section .container .studentsay-detail .col-same{
+    width: 31%;
+}
+
+
+
+
+.swiper-2 {
+    margin-top: 25px;
+    width: 100%;
+    height: 200px;
+  }
+  
+ .swiper-2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .swiper-2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+ .swiper-2 .swiper-slide {
+    width: 50%;
+  }
+  
+ .swiper-2 .swiper-slide:nth-child(2n) {
+    width: 50%;
+  }
+  
+ .swiper-2 .swiper-slide:nth-child(3n) {
+    width: 50%;
+  }
+
+  .slide-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .slide-1 p{
+    width: 70%;
+    text-align: start;
+    color: rgb(137, 137, 137);
+  }
+
+  .slide-1 .img{
+    width: 25%;
+  }
+
+  .slide-1 .img img{
+    width: 70%;
+  }
+  
+
+  @media (max-width:545px) {
+    .studentsay-section .container{
+      padding: 40px 20px;
+  }
+  }
+
+  @media (max-width:497px) {
+    .swiper-2 {
+      height: auto;
+    }
+    .slide-1{
+      padding: 10px 0px;
+      flex-direction: column-reverse;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .slide-1 p{
+      text-align: center;
+      width: 90%;
+      text-align: start;
+      color: rgb(137, 137, 137);
+    }
+  
+    .slide-1 .img{
+      width: 30%;
+    }
+  }
+
+  @media (max-width:370px) {
+    .studentsay-section .container{
+      padding: 40px 10px;
+  }
+  }

@@ -1,0 +1,125 @@
+.practice-section{
+    width: 100%;
+}
+
+.practice-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.practice-section .container .bg{
+    width: 100%;
+    height: 380px;
+    background: url(./bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.practice-section .container .test-main-container{
+    padding: 40px 60px;
+}
+
+.practice-section .container .test-main-container .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.practice-section .container .test-main-container .heading span{
+    font-size: 38px;
+    font-weight: 700;
+    font-variant: small-caps;
+    position: relative;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.practice-section .container .test-main-container .test-main-box{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.practice-section .container .test-main-container .test-main-box .left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.practice-section .container .test-main-container .test-main-box .right{
+    width: 28%;
+}
+
+.practice-section .container .test-main-container .test-main-box .right .input-search-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.practice-section .container .test-main-container .test-main-box .input-search-box span{
+    font-size: 20px;
+    /* color: cadetblue; */
+    color: #2E3192;
+    font-weight: 600;
+}
+
+.practice-section .container .test-main-container .test-main-box .input-search-box .input-search-content{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.practice-section .container .test-main-container .test-main-box .input-search-box .input-search-content input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: 1px solid #2E3192;
+}
+
+.practice-section .container .test-main-container .test-main-box .input-search-box .input-search-content .btn{
+    width: 20%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    background-color: #2E3192;
+    color: white;
+}
+
+
+@media (max-width:800px) {
+    
+    .practice-section .container .test-main-container{
+        padding: 40px 10px;
+    }
+    }
+    
+    @media (max-width:800px) {
+        .practice-section .container .test-main-container .test-main-box{
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .practice-section .container .test-main-container .test-main-box .left{
+            width: 100%;
+        }
+        
+        .practice-section .container .test-main-container .test-main-box .right{
+            width: 50%;
+        }
+    }
+    
+    @media (max-width:530px) {
+    
+        .practice-section .container .test-main-container .test-main-box .right{
+            width: 100%;
+        }
+    }
+
+    @media (max-width:570px) {
+        .practice-section .container .bg {
+            width: 100%;
+            height: 270px;
+            background: url(./bg.jpg) no-repeat center;
+            background-size: cover;
+        }
+    }

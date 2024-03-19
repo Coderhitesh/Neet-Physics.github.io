@@ -1,0 +1,138 @@
+.physics-section{
+    width: 1005;
+}
+
+.physics-section .container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.physics-section .container .bg{
+    width: 100%;
+    height: 380px;
+    background: url(./bg.jpg) no-repeat bottom;
+    background-size: cover;
+}
+
+.physics-section .container .physics-main-section{
+    padding: 40px 60px;
+}
+
+.physics-section .container .physics-main-section .heading{
+    width: 100%;
+    text-align: center;
+}
+
+.physics-section .container .physics-main-section .heading span{
+    font-size: 38px;
+    font-weight: 700;
+    font-variant: small-caps;
+    position: relative;
+    /* color: cadetblue; */
+    color: #2E3192;
+}
+
+.physics-section .container .physics-main-section .main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.physics-section .container .physics-main-section .main .up{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.physics-section .container .physics-main-section .main .up .left{
+    width: 45%;
+    /* height: 550px; */
+}
+
+.physics-section .container .physics-main-section .main .up .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.physics-section .container .physics-main-section .main .up .right{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.physics-section .container .physics-main-section .main .up .right .same-detail{
+    
+    /* color: rgb(100, 100, 100); */
+    color: black;
+}
+
+.physics-section .container .physics-main-section .main .up .right .same-detail h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.physics-section .container .physics-main-section .main .down{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.physics-section .container .physics-main-section .main .down .same-detail{
+    /* color: rgb(102, 102, 102); */
+    color: black;
+}
+
+.physics-section .container .physics-main-section .main .down .same-detail h4{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.physics-section .container .physics-main-section .main .down p{
+    /* color: rgb(101, 101, 101); */
+    color: black;
+}
+
+@media (max-width:830px) {
+    .physics-section .container .physics-main-section{
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:670px) {
+    .physics-section .container .physics-main-section .main .up{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .physics-section .container .physics-main-section .main .up .left{
+        width: 50%;
+    }
+    
+    .physics-section .container .physics-main-section .main .up .right{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:460px) {
+    .physics-section .container .physics-main-section .main .up .left{
+        width: 100%;
+    }
+    .physics-section .container .physics-main-section{
+        padding: 40px 15px;
+    }
+}
+
+@media (max-width:570px) {
+    .physics-section .container .bg {
+        width: 100%;
+        height: 270px;
+        background: url(./bg.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
